@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">LOGO</a>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Меню</a></li>
+
+                    <li><a href="#promotions"> Акції</a></li>
+                    <li><a href="#about"> Про нас</a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#contacts">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="backdrop">
+            <div class="modal">
+                <h3>
+                    Заповніть будь-ласка цю форму і ми Вам перетелефонуємо напротязі 15 хв
+                </h3>
+                <form class="modal-form">
+                    <div class="wrapper">
+                        <div class="input-wrapper">
+                            <label for="name">Вкажіть Ваше ім'я</label>
+                            <input type="text" id="name" placeholder="Олексій" />
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="tel">Вкажіть Ваш телефон</label>
+                            <input type="text" id="tel" placeholder="380501234567" />
+                            <p class="error-text">Введіть лише цифри</p>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="disabled">Передзвонити</button>
+                </form>
+            </div>
+        </div>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-wrapper">
+                    <h1>Піцерія</h1>
+                    <p>
+                        Знаєш що замовити, натискай на кнопку і ми тобі зателефонуємо. Або переходь до меню
+                    </p>
+                    <ul>
+                        <li><button id="ring">Дзвінок</button></li>
+                        <li><button>Меню</button></li>
+                    </ul>
+                </div>
+
+                <img src="./images/italian-food-concept-with-pizza-flour-space-2.jpg" alt="Зображення піцци та інших хлібобулочних виробів на темному фоні" width="400" height="400" />
+            </div>
+        </section>
+        <section class="menu" id="menu">
+            <div class="container">
+                <h2>Меню</h2>
+                <ul>
+                    <li class="menu-wrapper">
+                        <img src="./images/top-view-lahmacun-with-parsley-lemon-rag-ayran-wooden-food-tray-2.jpg" alt="Зображення піцци Маргарита" width="454" height="385" />
+                        <div class="description-menu-wrapper">
+                            <h3>Піцца Маргарита</h3>
+                            <p class="description">
+                                Це типова неаполітанська піца, виготовлена з помідорами Сан-Марцано, сиром моцарелла, свіжим базиліком, сіллю та оливковою олією.
+                            </p>
+                            <p class="price">Ціна 300 грн</p>
+                        </div>
+                    </li>
+                    <li class="menu-wrapper">
+                        <img src="./images/top-view-pizza-slice-napkin-2.jpg" alt="Зображення шматочка піцци Чотири сири" width="454" height="385" />
+                        <div class="description-menu-wrapper">
+                            <h3>Піцца чотири сири</h3>
+                            <p class="description">
+                                Це смачна та ситна страва, яка складається з тонької піццової основи, покритої сумішшю чотирьох різних видів сирів: моцарела, дор-блю, пармезан та рікотта.
+                            </p>
+                            <p class="price">Ціна 400 грн</p>
+                        </div>
+                    </li>
+                    <li class="menu-wrapper">
+                        <img src="./images/side-view-pizza-with-slices-bell-pepper-pizza-slices-flour-board-cookware-2.jpg" alt="Зображення піци капрічіоза" width="454" height="385" />
+                        <div class="description-menu-wrapper">
+                            <h3>Піцца Капрічоза</h3>
+                            <p class="description">
+                                Приготована з сиру моцарела, запеченої шинки, грибів, артишоків і помідорів. Гриби, як правило, печериці, але можуть бути і інші. В деяких версіях може також використовуватися прошуто (в'ялена шинка), мариновані артишоки, оливкова олія, оливки, листя
+                                базиліка і яйця. Капричоза може бути приготована на тонкому тісті.
+                            </p>
+                            <p class="price">Ціна 350 грн</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="promotions" id="promotions">
+            <div container>
+                <h2>Акції</h2>
+                <ul>
+                    <li>
+                        <a href=""><img src="./images/flat-lay-slices-salami-pizza-2.jpg" alt="Зображення піци" width="190" height="190" /></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="./images/top-view-sausage-pizza-with-napkin-board-cookware-2.jpg" alt="Зображення піци" width="190" height="190" /></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="./images/flat-lay-delicious-pizza-wooden-table-2.jpg" alt="Зображення піци" width="190" height="190" /></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h2>Про нас</h2>
+            <div class="about-wrapper">
+                <div class="container">
+                    <p>
+                        Якщо ви плануєте приємно провести вихідний з родиною, наша піцерія просто ідеальний варіант, куди можна прийти з дітками. Молодь просто обожнює піцу, у нас вас чекають смачні страви, приємна атмосфера, кращого варіанта для зустрічі з друзями і не придумаєш.
+                        Якщо ви зголодніли і хочете перекусити в перерву або думаєте що б смачненьке з'їсти після важкого трудового дня, завітайте до нас, смачна піца, затишна атмосфера, ввічливий персонал додадуть вашому відпочинку приємних відчуттів.
+                        Яскравий вигляд піци стане окрасою будь-якого столу. Якщо ви хочете взяти піцу з собою, щоб насолодитися нею в затишній домашній атмосфері, то ми маємо для цього спеціальну картонну упаковку, яка зручна для транспортування, екологічно
+                        безпечна. Головний секрет смачної піци полягає звісно в якісних інгредієнтах. А як зробити з них ідеальне поєднання, яке створить неперевершений смак, вигляд, які не залишать байдужими жодного клієнта, це вже секрет нашого кухара.
+                        Взагалі порахувати скільки існує рецептів піци просто неможливо. В залежності від регіональних смакових вподобань та традицій, до складу піци можуть входити такі незвичні інгредієнти, як маринований імбир, морепродукти, зелений
+                        горошок, кокос та інше. Лише справжні професіонал знає, які інгредієнти зроблять піцу смачною.
+                    </p>
+                    <img src="./images/man-putting-arugula-pizza-dough-2.jpg" alt="Чоловік посипає піццу рукколою" width="424" height="424" />
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contacts">
+        <div class="container">
+            <div class="footer-wrapper">
+                <a class="footer-tel" href="tel:+380991001010">+38 100 10 10</a>
+                <address>
+            <p>
+              <a
+                class="footer-address-link"
+                href="https://www.google.com/maps/place/вулиця+Богдана+Хмельницького,+14,+Львів,+Львівська+область,+79000/data=!4m2!3m1!1s0x473add0d30851935:0xc2df6a4da7dd9501?sa=X&ved=2ahUKEwj3xfipjdODAxUXbvEDHZN6DWAQ8gF6BAgLEAA"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                місто Львів,<br />
+                вул. Богдана Хмельницького, 14</a
+              >
+            </p>
+          </address>
+                <div class="social-media-wrapper">
+                    <h3>Соц мережі</h3>
+                    <ul>
+                        <li>
+                            <a class="icon-link" href="https://www.facebook.com/?locale=uk_UA" target="_blank" rel="noopener noreferrer nofollow" aria-label="Іконка Фейсбук">
+                                <svg class="icon" width="40" height="40">
+                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="icon-link" href="https://twitter.com" target="_blank" rel="noopener noreferrer nofollow" aria-label="Іконка Твіттер">
+                                <svg class="icon" width="40" height="40">
+                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#" class="logo-footer">LOGO</a>
+        </div>
+    </footer>
+    <script src="./main.js" type="module"></script>
+</body>
+
+</html>
